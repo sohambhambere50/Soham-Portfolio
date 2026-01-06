@@ -1,0 +1,12 @@
+# Build
+dist/
+build/
+
+#  security files
+.env
+
+# dependencies
+node_modules/
+
+# Public folder
+public/
