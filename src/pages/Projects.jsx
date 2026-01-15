@@ -4,28 +4,12 @@ import { Github, ExternalLink } from 'lucide-react'
 
 const PROJECTS = [
   {
-    title: '🩺 Mammogram Malignancy Detector',
-    desc: 'Hybrid CNN + YOLOv8 ensemble for full-image breast cancer detection with ROI preprocessing and sliding-window inference.',
-    ss: '/mamo.png',
-    tech: ['TensorFlow', 'Keras', 'OpenCV', 'YOLOv8'],
+    title: 'TalkStream - Real Time Chat Application',
+    desc: 'A scalable real-time chat application built using the MERN stack with Socket.io for live messaging, JWT-based authentication, and cloud deployment on AWS.',
+    ss: '/talkstream.png',
+    tech: ['Node.js', 'React', 'Socket.io', 'AWS'],
     live: '#',
-    code: 'https://github.com/kunjdesai/mammo-detector'
-  },
-  {
-  title: '🧠 Mental Health Analyzer',
-  desc: 'NLP-based system that analyzes user text to detect signs of anxiety, stress, and depression using sentiment analysis and transformer models.',
-  ss: '/mentalhealth.jpg',
-  tech: ['Python', 'Transformers', 'NLTK', 'scikit-learn'],
-  live: 'https://mental-health-analyzer.streamlit.app/',
-  code: 'https://github.com/kunj2803/Mental-Health-Analyzer'
-  },
-  {
-    title: '🤖 Indian Sign Language Interpreter',
-    desc: 'Real-time gesture recognition and translation using Mediapipe + TensorFlow, enabling live sign-to-text interpretation.',
-    ss: '/ISL.png',
-    tech: ['Mediapipe', 'TensorFlow', 'React', 'Flask'],
-    live: '#',
-    code: 'https://github.com/kunjdesai/ISL-Interpreter'
+    code: 'https://github.com/sohambhambere50/TalkStream.git'
   },
   {
   title: '💼 Portfolio Website',
@@ -33,31 +17,31 @@ const PROJECTS = [
   ss: '/portfolio.jpg',
   tech: ['React', 'Framer Motion', 'Tailwind CSS'],
   live: '#',
-  code: 'https://github.com/kunj2803/Kunj-Portfolio'
+  code: 'https://github.com/sohambhambere50/Soham-Portfolio.git'
   },
   {
-    title: '💬 DocuChat – Gemini AI Chatbot',
-    desc: 'An intelligent document interaction app powered by Gemini API that understands and answers queries from uploaded PDFs.',
-    ss: '/Docuchat.png',
-    tech: ['Gemini API', 'LangChain', 'Python', 'Streamlit'],
-    live: 'https://docuchat-chatbot.streamlit.app/',
-    code: 'https://github.com/kunj2803/Docuchat-Chatbot'
+  title: 'JuriSight - AI Legal Advisor',
+  desc: 'An AI-powered legal assistant that analyzes uploaded legal documents to extract key clauses and generate simplified summaries using NLP and large language models.',
+  ss: '/mentalhealth.jpg',
+  tech: ['Python', 'Flask', 'SQLite', 'HTML', 'CSS'],
+  live: '#',
+  code: 'https://github.com/sohambhambere50/Jurisight.git'
   },
   {
-    title: '📊 ProfileX – Data Profiler',
-    desc: 'Smart data profiling and preprocessing web app for CSV datasets — feature summary, missing value handling, and visualization.',
-    ss: '/ProfileX.png',
-    tech: ['Streamlit', 'Pandas', 'Plotly'],
-    live: 'https://profilex.streamlit.app/',
-    code: 'https://github.com/kunjdesai/ProfileX'
-  },
-  {
-    title: '🧬 Breast Cancer Prediction',
-    desc: 'ML pipeline using SVC, Random Forest, and XGBoost with SMOTE for imbalanced dataset handling and model optimization.',
-    ss: '/breastpred.jpg',
-    tech: ['scikit-learn', 'XGBoost', 'Pandas'],
+    title: 'Telecom Churn Analysis',
+    desc: 'A data analysis project that explores customer churn patterns in the telecom domain using Python, with visual insights generated through Matplotlib to identify key factors influencing customer retention.',
+    ss: '/telecom_churn_analysis.png',
+    tech: ['Matplotlib', 'Pandas', 'NumPy'],
     live: '#',
-    code: 'https://github.com/kunjdesai/BreastCancerPrediction'
+    code: 'https://github.com/sohambhambere50/Telecom-Churn-Analysis-.git'
+  },
+  {
+    title: 'HungMan - Classic Word Guessing Game',
+    desc: 'A simple command-line Hangman game where players guess letters to uncover a hidden word before the stickman is fully drawn.',
+    ss: '/hungman.png',
+    tech: ['Python'],
+    live: '#',
+    code: 'https://github.com/sohambhambere50/Hangman-Game-.git'
   }
 ]
 
@@ -108,8 +92,8 @@ export default function Projects() {
                   alt={p.title}
                   style={{
                     width: '100%',
-                    height: '200px',
-                    objectFit: 'cover',
+                    height: '230px',
+                    objectFit: '',
                     borderRadius: 12
                   }}
                 />
