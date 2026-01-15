@@ -7,8 +7,8 @@ export default function Home() {
   const professions = [
     'AI Enthusiast',
     'DevOps Engineer',
-    'Computer Vision Researcher',
-    'Developer',
+    'System Designer',
+    'Backend Developer',
   ]
 
   const quickLinks = [
@@ -78,7 +78,7 @@ export default function Home() {
 
           {/* Typing Animated Text */}
           <p className="typing-effect">
-            Artificial Intelligence Engineer | Backend Developer | Tech Explorer
+            DevOps Engineer | Backend Developer | Tech Explorer
           </p>
 
           {/* Profession Tags */}
