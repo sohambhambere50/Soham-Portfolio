@@ -56,10 +56,10 @@ const AboutMe = () => {
             marginBottom: "1rem",
           }}
         >
-          Hi, I’m <strong>Kunj Desai</strong> — an aspiring{" "}
-          <strong>Artificial Intelligence Engineer</strong> and{" "}
-          <strong>Machine Learning enthusiast</strong> who loves turning ideas
-          into intelligent systems. I’m deeply fascinated by how data and
+          Hi, I’m <strong>Soham Bhambere</strong> — an aspiring{" "}
+          <strong>Backend Engineer</strong> and{" "}
+          <strong>DevOps enthusiast</strong> who loves turning ideas
+          into real time systems. I’m deeply fascinated by how data and
           algorithms can shape the future of healthcare, automation, and
           creativity in technology.
         </p>
@@ -73,7 +73,7 @@ const AboutMe = () => {
         </p>
 
         <p>
-            4th-year B.Tech AI Engineering student with hands-on experience in ML & DL Projects. Proficient in Python, scikitlearn,pytorch,tensorflow and data preprocessing. Seeking internship opportunities to apply skills and contribute to
+            B.Tech AI Engineering student with hands-on experience in Backend and DevOps Projects. Proficient in Python, scikitlearn,pytorch,tensorflow and data preprocessing. Seeking internship opportunities to apply skills and contribute to
             impactful AI solutions.
         </p>
 
@@ -139,13 +139,13 @@ const AboutMe = () => {
                     marginBottom: "0.2rem",
                   }}
                 >
-                  <strong>S.C.E.T (Sarvajanik University)</strong> — Surat,
-                  Gujarat
+                  <strong>AISSMS IOIT (SPPU University, Pune)</strong> — Pune,
+                  Maharashtra
                 </p>
                 <p style={{ color: "rgba(255,255,255,0.7)" }}>
-                  4th Year (Pursuing) | GPA: 9.0
+                  3rd Year (Pursuing) | GPA: 8.31
                 </p>
-                <p style={{ color: "rgba(255,255,255,0.7)" }}>2022 – 2026</p>
+                <p style={{ color: "rgba(255,255,255,0.7)" }}>2024 – Present</p>
               </div>
             </motion.div>
 
@@ -176,7 +176,7 @@ const AboutMe = () => {
                     fontSize: "1.25rem",
                   }}
                 >
-                  Higher Secondary Education (12th Grade)
+                 Diploma in Computer Engineering 
                 </h4>
                 <p
                   style={{
@@ -184,60 +184,17 @@ const AboutMe = () => {
                     marginBottom: "0.2rem",
                   }}
                 >
-                  <strong>R.S.M. Poonawala Experimental School</strong> — Ambika
-                  Niketan, Surat
+                  <strong>Government Polytechnic Ahmednagar</strong> — Ahmendnagar
                 </p>
                 <p style={{ color: "rgba(255,255,255,0.7)" }}>
-                  Gujarat Board | Percentage: 78%
+                  MSBTE | Percentage: 90.86%
                 </p>
-                <p style={{ color: "rgba(255,255,255,0.7)" }}>Completed in 2022</p>
+                <p style={{ color: "rgba(255,255,255,0.7)" }}>Completed in 2024</p>
               </div>
             </motion.div>
 
             {/* --- Education Card 3 --- */}
-            <motion.div
-              whileHover={{
-                scale: 1.02,
-                boxShadow: "0 0 25px rgba(0,255,200,0.15)",
-              }}
-              transition={{ duration: 0.3 }}
-              style={{
-                background: "rgba(255,255,255,0.05)",
-                borderRadius: "14px",
-                padding: "1.5rem 2rem",
-                border: "1px solid rgba(255,255,255,0.08)",
-                boxShadow: "0 0 15px rgba(0,255,200,0.05)",
-                display: "flex",
-                alignItems: "center",
-                gap: "1.2rem",
-              }}
-            >
-              <FaSchool size={36} color="var(--accent)" />
-              <div>
-                <h4
-                  style={{
-                    color: "var(--accent)",
-                    marginBottom: "0.4rem",
-                    fontSize: "1.25rem",
-                  }}
-                >
-                  Secondary Education (10th Grade)
-                </h4>
-                <p
-                  style={{
-                    color: "rgba(255,255,255,0.85)",
-                    marginBottom: "0.2rem",
-                  }}
-                >
-                  <strong>R.S.M. Poonawala Experimental School</strong> — Surat,
-                  Gujarat
-                </p>
-                <p style={{ color: "rgba(255,255,255,0.7)" }}>
-                  Gujarat Board | Percentage: 69%
-                </p>
-                <p style={{ color: "rgba(255,255,255,0.7)" }}>Completed in 2020</p>
-              </div>
-            </motion.div>
+            
           </div>
         </motion.div>
       </motion.div>
