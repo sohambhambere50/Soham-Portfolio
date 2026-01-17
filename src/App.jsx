@@ -26,9 +26,6 @@ export default function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
-      <footer className="footer">
-        © {new Date().getFullYear()} Kunj Desai — Built with React
-      </footer>
     </div>
   )
 }
