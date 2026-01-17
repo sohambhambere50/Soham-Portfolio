@@ -67,12 +67,10 @@ export default function Contact() {
   };
 
   const quickLinks = [
-    { img: githubLogo, title: "GitHub", link: "https://github.com/kunj2803" },
-    { img: linkedinLogo, title: "LinkedIn", link: "https://www.linkedin.com/in/kunj-desai-07717b293/" },
-    { img: gmailLogo, title: "Email", link: "mailto:kunjd2803@gmail.com" },
-    { img: whatsappLogo, title: "WhatsApp", link: "https://wa.me/+918758209508" },
-    { img: instagramLogo, title: "Instagram", link: "https://www.instagram.com/kunj_2834/" },
-    { img: facebookLogo, title: "Facebook", link: "https://www.facebook.com/kunj.desai.222608" },
+    { img: githubLogo, title: "GitHub", link: "https://github.com/sohambhambere50" },
+    { img: linkedinLogo, title: "LinkedIn", link: "https://www.linkedin.com/in/soham-bhambere/" },
+    { img: gmailLogo, title: "Email", link: "mailto:sohambhambere55@gmail.com" },
+    { img: whatsappLogo, title: "WhatsApp", link: "https://wa.me/+919860747763" }
   ];
 
   return (
