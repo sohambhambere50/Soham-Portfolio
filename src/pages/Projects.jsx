@@ -22,7 +22,7 @@ const PROJECTS = [
   {
   title: 'JuriSight - AI Legal Advisor',
   desc: 'An AI-powered legal assistant that analyzes uploaded legal documents to extract key clauses and generate simplified summaries using NLP and large language models.',
-  ss: '/mentalhealth.jpg',
+  ss: '/jurisight.png',
   tech: ['Python', 'Flask', 'SQLite', 'HTML', 'CSS'],
   live: '#',
   code: 'https://github.com/sohambhambere50/Jurisight.git'
