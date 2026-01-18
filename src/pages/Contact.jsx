@@ -1,14 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "emailjs-com";
-
-import githubLogo from "../../public/github.png";
-import linkedinLogo from "../../public/linkedin.png";
-import gmailLogo from "../../public/gmail.png";
-import whatsappLogo from "../../public/whatsapp.png";
-import instagramLogo from "../../public/insta.png";
-import facebookLogo from "../../public/facebook.png";
-
 import "../CSS/Contact.css"
 import '../index.css' 
 
@@ -67,10 +59,10 @@ export default function Contact() {
   };
 
   const quickLinks = [
-    { img: githubLogo, title: "GitHub", link: "https://github.com/sohambhambere50" },
-    { img: linkedinLogo, title: "LinkedIn", link: "https://www.linkedin.com/in/soham-bhambere/" },
-    { img: gmailLogo, title: "Email", link: "mailto:sohambhambere55@gmail.com" },
-    { img: whatsappLogo, title: "WhatsApp", link: "https://wa.me/+919860747763" }
+    { img: "/github.png", title: "GitHub", link: "https://github.com/sohambhambere50" },
+    { img: 'linkedin.png', title: "LinkedIn", link: "https://www.linkedin.com/in/soham-bhambere/" },
+    { img: 'gmail.png', title: "Email", link: "mailto:sohambhambere55@gmail.com" },
+    { img: 'whatsapp.png', title: "WhatsApp", link: "https://wa.me/+919860747763" }
   ];
 
   return (
