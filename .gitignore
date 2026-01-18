@@ -1,12 +1,21 @@
-# Build
-dist/
-build/
-
-#  security files
-.env
-
 # dependencies
 node_modules/
 
-# Public folder
-public/
+# build output
+dist/
+build/
+
+# environment variables
+.env
+.env.local
+.env.production
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# logs
+npm-debug.log*
+yarn-error.log*
