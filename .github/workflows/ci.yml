@@ -6,6 +6,7 @@ on :
 
 jobs:
   build:
+    name: React CI Pipeline / build
     runs-on: ubuntu-latest
 
     steps:
