@@ -31,12 +31,12 @@ export default function Home() {
       {/* Top Section: Photo + Info */}
       <div className="home-top">
         {/* Left: Glowing Photo */}
-        <motion.div
-          initial={{ opacity: 0, x: -60 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1 }}
-          className="photo-container"
-        >
+          <motion.div
+            initial={{ opacity: 0, x: -60 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1 }}
+            className="photo-container"
+          >
           <motion.div
             animate={{ rotate: [0, 360] }}
             transition={{ duration: 25, repeat: Infinity, ease: 'linear' }}
@@ -48,7 +48,7 @@ export default function Home() {
             className="photo-frame"
           >
             <motion.img
-              src={'/photo.jpg'}
+              src={'/profilePhoto.png'}
               alt="Soham Bhambere"
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
@@ -59,12 +59,12 @@ export default function Home() {
         </motion.div>
 
         {/* Right: Info Section */}
-        <motion.div
-          initial={{ opacity: 0, x: 60 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1 }}
-          className="home-info"
-        >
+          <motion.div
+            initial={{ opacity: 0, x: 60 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1 }}
+            className="home-info"
+          >
           <h1 className="home-title">
             Hi, I’m{' '}
             <motion.span
