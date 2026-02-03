@@ -5,11 +5,11 @@ import { motion, AnimatePresence } from "framer-motion";
 const CERTS = {
   tech: [
     {
-      title: "AWS Academy Cloud Foundation",
-      org: "Amazon Web Services",
-      date: "2026",
-      img: "/certs/adira.png",
-      link: "/certs/adira.png",
+      title: "Python Training",
+      org: "AI Adventures",
+      date: "2025",
+      img: "certs/Ai_Adventure_Certificate.jpg",
+      link: "certs/Ai_Adventure_Certificate.jpg",
     },
   ],
   other: [
