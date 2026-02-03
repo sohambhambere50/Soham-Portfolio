@@ -12,6 +12,14 @@ const PROJECTS = [
     code: 'https://github.com/sohambhambere50/TalkStream.git'
   },
   {
+  title: 'InsurePredict',
+  desc: 'Designed and implemented a production-ready ML system for insurance risk prediction with automated testing, experiment tracking, and data versioning, following CI/CD and MLOps best practices.',
+  ss: '/insurePredict.png',
+  tech: ['Python', 'MLFlow', 'DVC', 'Sciket-Learn'],
+  live: '#',
+  code: 'https://github.com/sohambhambere50/InsurePredict-ML.git'
+  },
+  {
   title: '💼 Portfolio Website',
   desc: 'A modern and responsive portfolio built with React and Framer Motion, showcasing projects, skills, and achievements with smooth animations and interactive UI.',
   ss: '/portfolio.jpg',
