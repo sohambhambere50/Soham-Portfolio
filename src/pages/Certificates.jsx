@@ -5,12 +5,19 @@ import { motion, AnimatePresence } from "framer-motion";
 const CERTS = {
   tech: [
     {
+      title: "Cloud Foundation Training",
+      org: "Amazon Web Service",
+      date: "2026",
+      img: "certs/Cloud_foundation_training.png",
+      link: "certs/Cloud_foundation_training.png",
+    },
+    {
       title: "Python Training",
       org: "AI Adventures",
       date: "2025",
       img: "certs/Ai_Adventure_Certificate.jpg",
       link: "certs/Ai_Adventure_Certificate.jpg",
-    },
+    }    
   ],
   other: [
     // {
