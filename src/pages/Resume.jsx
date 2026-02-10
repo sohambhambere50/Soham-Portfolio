@@ -217,7 +217,7 @@ export default function Resume() {
           }}
         >
           <iframe
-            src="/Soham_Bhambere_Resume.pdf"
+            src="/Soham_Bhambere_DevOps_Resume.pdf"
             title="Soham Bhambere Resume"
             style={{
               width: "100%",
