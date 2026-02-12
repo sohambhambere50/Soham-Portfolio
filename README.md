@@ -40,7 +40,7 @@ To run this project locally:
 
 ```bash
 # 1️⃣ Clone the repository
-git clone https://github.com/kunj2803/Soham-Portfolio.git
+git clone https://github.com/sohambhambere50/Soham-Portfolio.git
 
 # 2️⃣ Navigate to project directory
 cd Soham-Portfolio
@@ -60,8 +60,8 @@ Now open [http://localhost:5173](http://localhost:5173) in your browser 🚀
 
 If you’d like to collaborate or just say hi 👋, feel free to reach out!
 
-* 📧 **Email:** [kunjd2803@gmail.com](sohambhambere55@gmail.com)
-* 💼 **LinkedIn:** [linkedin.com/in/kunj-desai-07717b293](https://www.linkedin.com/in/soham-bhambere/)
+* 📧 **Email:** [sohambhambere55@gmail.com](sohambhambere55@gmail.com)
+* 💼 **LinkedIn:** [linkedin.com/in/soham-bhambere/](https://www.linkedin.com/in/soham-bhambere/)
 
 ---
 
